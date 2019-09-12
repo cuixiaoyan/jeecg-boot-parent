@@ -1,0 +1,10 @@
+org/jeecg/modules/demo/examples/mapper/ExampleMapper.class
+org/jeecg/modules/demo/activities/service/impl/PublishingActivitiesServiceImpl.class
+org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.class
+org/jeecg/modules/demo/examples/entity/Example.class
+org/jeecg/modules/demo/examples/controller/ExampleController.class
+org/jeecg/modules/demo/activities/mapper/PublishingActivitiesMapper.class
+org/jeecg/modules/demo/activities/entity/PublishingActivities.class
+org/jeecg/modules/demo/examples/service/IExampleService.class
+org/jeecg/modules/demo/activities/service/IPublishingActivitiesService.class
+org/jeecg/modules/demo/examples/service/impl/ExampleServiceImpl.class
