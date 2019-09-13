@@ -57,7 +57,7 @@ public class Swagger2Config implements WebMvcConfigurer {
 	@Bean
 	public Docket createRestApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
-				.apiInfo(apiInfo())
+				.apiInfo(apiInfo()).groupName("system模块")
 				.select()
 				//此包路径下的类，才生成接口文档
 				.apis(RequestHandlerSelectors.basePackage("org.jeecg.modules"))
@@ -67,6 +67,21 @@ public class Swagger2Config implements WebMvcConfigurer {
 				.build()
 				.securitySchemes(Collections.singletonList(securityScheme()));
 				//.globalOperationParameters(setHeaderToken());
+	}
+
+	@Bean
+	public Docket cxyApi() {
+		return new Docket(DocumentationType.SWAGGER_2)
+				.apiInfo(apiInfo()).groupName("devcxy模块")
+				.select()
+				//此包路径下的类，才生成接口文档
+				.apis(RequestHandlerSelectors.basePackage("org.jeecg.modules.demo"))
+				//加了ApiOperation注解的类，才生成接口文档
+				.apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
+				.paths(PathSelectors.any())
+				.build()
+				.securitySchemes(Collections.singletonList(securityScheme()));
+		//.globalOperationParameters(setHeaderToken());
 	}
 
 	/***

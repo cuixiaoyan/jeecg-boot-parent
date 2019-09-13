@@ -31,16 +31,16 @@ public class PublishingActivities implements Serializable {
 	private String createBy;
 	/**创建日期*/
 //	@Excel(name = "创建日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
-//	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
-//    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
+	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date createTime;
 	/**更新人*/
 	//@Excel(name = "更新人", width = 15)
 	private String updateBy;
 	/**更新日期*/
 //	@Excel(name = "更新日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
-//	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
-//    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
+	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date updateTime;
 	/**所属部门*/
 	//@Excel(name = "所属部门", width = 15)
@@ -59,9 +59,13 @@ public class PublishingActivities implements Serializable {
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm")
 	private Date endtime;
 	/**责任人*/
+	//数据字典数据库转换
+	@Dict(dicCode = "id",dictTable="sys_user",dicText="realname")
 	@Excel(name = "责任人", width = 15)
 	private String personliable;
 	/**活动类型 自动转换*/
+	//单纯数据字典转换
+	@Dict(dicCode = "acttype")
 	@Excel(name = "活动类型", width = 15 ,dicCode="acttype")
 	private String acttype;
 
@@ -71,4 +75,11 @@ public class PublishingActivities implements Serializable {
 	/**电话号码*/
 	@Excel(name = "电话号码", width = 15)
 	private String telephone;
+
+    /**
+     * 活动图片
+     */
+    //@Excel(name = "活动图片", width = 15)
+    private String avatar;
+
 }

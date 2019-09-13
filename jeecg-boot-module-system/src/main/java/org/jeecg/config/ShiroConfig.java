@@ -42,6 +42,10 @@ public class ShiroConfig {
 		shiroFilterFactoryBean.setSecurityManager(securityManager);
 		// 拦截器
 		Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
+
+		//发布任务
+		filterChainDefinitionMap.put("/activities/publishingActivities/**", "anon");
+
 		//cas验证登录
 		filterChainDefinitionMap.put("/cas/client/validateLogin", "anon");
 		// 配置不会被拦截的链接 顺序判断

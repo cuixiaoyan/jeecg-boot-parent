@@ -5,6 +5,24 @@
       <change afterPath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application-dev.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/controller/ExampleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/entity/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/mapper/ExampleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/mapper/xml/ExampleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/service/IExampleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/service/impl/ExampleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/activities/entity/PublishingActivities.class" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/activities/entity/PublishingActivities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/examples/controller/ExampleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/examples/entity/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/examples/mapper/ExampleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/examples/mapper/xml/ExampleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/examples/service/IExampleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/examples/service/impl/ExampleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/Swagger2Config.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jeecg-boot-base-common/target/" />
     <ignored path="$PROJECT_DIR$/jeecg-boot-module-system/target/" />
@@ -37,54 +55,55 @@
     <session id="-1696144897">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
+          <entry key="class" value="8" />
           <entry key="ftl" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="75" />
+          <entry key="java" value="93" />
           <entry key="properties" value="2" />
           <entry key="vue" value="5" />
-          <entry key="xml" value="18" />
+          <entry key="xml" value="19" />
           <entry key="yml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="8" />
           <entry key="FTL" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="75" />
+          <entry key="JAVA" value="93" />
           <entry key="Properties" value="2" />
           <entry key="Vue.js" value="5" />
-          <entry key="XML" value="18" />
+          <entry key="XML" value="19" />
           <entry key="YAML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="115" />
-          <entry key="txt" value="22" />
+          <entry key="java" value="268" />
+          <entry key="txt" value="26" />
           <entry key="xml" value="35" />
           <entry key="yml" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="115" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="JAVA" value="268" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="XML" value="35" />
           <entry key="YAML" value="89" />
         </counts>
@@ -93,11 +112,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/controller/ExampleController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="57" column="63" lean-forward="true" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+            <state relative-caret-position="262">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -128,6 +159,9 @@
       <find>filterChainDefinitionMap</find>
       <find>http://cas.example.org:8443/cas</find>
       <find>短信</find>
+      <find>头像</find>
+      <find>avatar</find>
+      <find>exception</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,11 +208,16 @@
         <option value="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/activities/service/impl/PublishingActivitiesServiceImpl.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/activities/controller/PublishingActivitiesController.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/activities/mapper/PublishingActivitiesMapper.java" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.java" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/controller/ExampleController.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/entity/Example.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java" />
       </list>
     </option>
   </component>
@@ -316,9 +355,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,7 +396,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -368,8 +405,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -378,14 +415,106 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,7 +525,7 @@
     <property name="SearchEverywhereHistoryKey" value="ShiroConfig&#9;PSI&#9;JAVA://org.jeecg.config.ShiroConfig&#10;AttendanceMapper.xml&#9;FILE&#9;file:///Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/attendance/mapper/xml/AttendanceMapper.xml&#10;QueryGenerator&#9;PSI&#9;JAVA://org.jeecg.common.system.query.QueryGenerator" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568276100426" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568364291370" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -467,7 +596,9 @@
       <workItem from="1568006523219" duration="814000" />
       <workItem from="1568010281471" duration="692000" />
       <workItem from="1568268620105" duration="1208000" />
-      <workItem from="1568271423896" duration="3609000" />
+      <workItem from="1568271423896" duration="7921000" />
+      <workItem from="1568334669019" duration="5449000" />
+      <workItem from="1568360088942" duration="3039000" />
     </task>
     <task id="LOCAL-00001" summary="开发和生产环境的配置未提交 个人使用">
       <created>1568271854719</created>
@@ -483,17 +614,24 @@
       <option name="project" value="LOCAL" />
       <updated>1568275226309</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="例子测试">
+      <created>1568276128975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568276128975</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40451000" />
+    <option name="totallyTimeSpent" value="53251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3190272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -505,7 +643,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.23139377" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.22868742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -540,40 +678,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="开发和生产环境的配置未提交 个人使用" />
     <MESSAGE value="测试提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
+    <MESSAGE value="例子测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="例子测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/service/impl/SysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/cas/controller/CasClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/attendance/controller/AttendanceController.java" />
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/attendance/entity/Attendance.java" />
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/attendance/service/AttendanceService.java" />
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/demo/test/mapper/xml/JeecgOrderCustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="78" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/demo/test/mapper/xml/JeecgDemoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/demo/test/mapper/JeecgOrderCustomerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -659,84 +767,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/mapper/PublishingActivitiesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/mapper/xml/PublishingActivitiesMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="2" selection-start-column="88" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/service/IPublishingActivitiesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/service/impl/PublishingActivitiesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-205" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/entity/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/mapper/ExampleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/mapper/xml/ExampleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/service/impl/ExampleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/mapper/xml/ExampleMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/service/impl/ExampleServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -748,13 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="111" column="65" selection-start-line="111" selection-start-column="65" selection-end-line="111" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -791,10 +821,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/controller/ExampleController.java">
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/mapper/ExampleMapper.java" />
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/examples/controller/ExampleController.class" />
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/controller/ExampleController.java" />
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/examples/entity/Example.java" />
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/entity/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="57" column="63" lean-forward="true" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+        <state relative-caret-position="-1165">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/mapper/PublishingActivitiesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/mapper/xml/PublishingActivitiesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="2" selection-start-column="88" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/service/IPublishingActivitiesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="71" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/service/impl/PublishingActivitiesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/JeecgApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/demo/test/controller/JeecgDemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="69" column="63" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/com/github/xiaoymin/swaggerbootstrapui/filter/ProductionSecurityFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="77" column="76" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="19" />
         </state>
       </provider>
     </entry>
