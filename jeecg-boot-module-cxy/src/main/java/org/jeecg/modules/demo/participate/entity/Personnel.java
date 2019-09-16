@@ -1,6 +1,7 @@
 package org.jeecg.modules.demo.participate.entity;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
 import java.math.BigDecimal;
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -59,9 +60,8 @@ public class Personnel implements Serializable {
 	@Excel(name = "人数", width = 15)
 	private Integer number;
 	/**哪次活动*/
-
 	@Dict(dicCode = "id",dictTable="publishingActivities",dicText="activities")
-	@Excel(name = "活动", width = 15)
+	@Excel(name="活动",dictTable="publishingActivities",dicCode="id",dicText="activities")
 	private String activity;
 	/**活动地区*/
 	@Excel(name = "地区", width = 15)
@@ -72,6 +72,6 @@ public class Personnel implements Serializable {
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm")
 	private Date remindertime;
 	/**参与的部门*/
-	@Excel(name = "参与的部门", width = 15)
+	@Excel(name="参与的部门",dictTable="sys_depart",dicCode="id",dicText="depart_name")
 	private String department;
 }
