@@ -61,7 +61,7 @@ public class PublishingActivities implements Serializable {
 	/**责任人*/
 	//数据字典数据库转换
 	@Dict(dicCode = "id",dictTable="sys_user",dicText="realname")
-	@Excel(name = "责任人", width = 15)
+	@Excel(name = "责任人", width = 15 ,dictTable="sys_user",dicCode="id",dicText="realname")
 	private String personliable;
 	/**活动类型 自动转换*/
 	//单纯数据字典转换

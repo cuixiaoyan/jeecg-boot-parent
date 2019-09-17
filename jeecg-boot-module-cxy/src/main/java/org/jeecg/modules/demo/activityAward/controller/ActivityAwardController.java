@@ -1,4 +1,4 @@
-package org.jeecg.modules.demo.participate.controller;
+package org.jeecg.modules.demo.activityAward.controller;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,22 +9,17 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 import org.jeecg.common.api.vo.Result;
 import org.jeecg.common.system.query.QueryGenerator;
 import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.demo.participate.entity.Personnel;
-import org.jeecg.modules.demo.participate.entity.Region;
-import org.jeecg.modules.demo.participate.service.IPersonnelService;
+import org.jeecg.modules.demo.activityAward.entity.ActivityAward;
+import org.jeecg.modules.demo.activityAward.service.IActivityAwardService;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.extern.slf4j.Slf4j;
 
-import org.jeecg.modules.demo.participate.service.RegionService;
 import org.jeecgframework.poi.excel.ExcelImportUtil;
 import org.jeecgframework.poi.excel.def.NormalExcelConstants;
 import org.jeecgframework.poi.excel.entity.ExportParams;
@@ -39,73 +34,50 @@ import org.springframework.web.servlet.ModelAndView;
 import com.alibaba.fastjson.JSON;
 
  /**
- * @Description: 参加活动人员表
+ * @Description: 活动奖励
  * @Author: jeecg-boot
- * @Date:   2019-09-14
+ * @Date:   2019-09-17
  * @Version: V1.0
  */
 @RestController
-@RequestMapping("/participate/personnel")
+@RequestMapping("/activityAward/activityAward")
 @Slf4j
-@Api(tags="参加活动人员表")
-public class PersonnelController {
+public class ActivityAwardController {
 	@Autowired
-	private IPersonnelService personnelService;
-
-	@Autowired
-	private RegionService regionService;
+	private IActivityAwardService activityAwardService;
 	
 	/**
 	  * 分页列表查询
-	 * @param personnel
+	 * @param activityAward
 	 * @param pageNo
 	 * @param pageSize
 	 * @param req
 	 * @return
 	 */
 	@GetMapping(value = "/list")
-	@ApiOperation(value = "获取参加活动人员表列表", notes = "获取参加活动人员表列表 cxy")
-	public Result<IPage<Personnel>> queryPageList(Personnel personnel,
+	public Result<IPage<ActivityAward>> queryPageList(ActivityAward activityAward,
 									  @RequestParam(name="pageNo", defaultValue="1") Integer pageNo,
 									  @RequestParam(name="pageSize", defaultValue="10") Integer pageSize,
 									  HttpServletRequest req) {
-		Result<IPage<Personnel>> result = new Result<IPage<Personnel>>();
-		QueryWrapper<Personnel> queryWrapper = QueryGenerator.initQueryWrapper(personnel, req.getParameterMap());
-		Page<Personnel> page = new Page<Personnel>(pageNo, pageSize);
-		IPage<Personnel> pageList = personnelService.page(page, queryWrapper);
+		Result<IPage<ActivityAward>> result = new Result<IPage<ActivityAward>>();
+		QueryWrapper<ActivityAward> queryWrapper = QueryGenerator.initQueryWrapper(activityAward, req.getParameterMap());
+		Page<ActivityAward> page = new Page<ActivityAward>(pageNo, pageSize);
+		IPage<ActivityAward> pageList = activityAwardService.page(page, queryWrapper);
 		result.setSuccess(true);
 		result.setResult(pageList);
 		return result;
 	}
-
-	 /**
-	  * 活动查询接口
-	  * @return
-	  */
-	 @GetMapping(value = "/map")
-	 @ApiOperation(value = "获取地区map", notes = "获取地区map cxy")
-	 public Result<List<Map<String, Object>>> queryMap() {
-		 Result<List<Map<String, Object>>> result = new Result<List<Map<String, Object>>>();
-		 List<Map<String, Object>> region = regionService.getRegion();
-
-		 result.setResult(region);
-		 result.setSuccess(true);
-		 return result;
-	 }
-
-
-
 	
 	/**
 	  *   添加
-	 * @param personnel
+	 * @param activityAward
 	 * @return
 	 */
 	@PostMapping(value = "/add")
-	public Result<Personnel> add(@RequestBody Personnel personnel) {
-		Result<Personnel> result = new Result<Personnel>();
+	public Result<ActivityAward> add(@RequestBody ActivityAward activityAward) {
+		Result<ActivityAward> result = new Result<ActivityAward>();
 		try {
-			personnelService.save(personnel);
+			activityAwardService.save(activityAward);
 			result.success("添加成功！");
 		} catch (Exception e) {
 			log.error(e.getMessage(),e);
@@ -116,17 +88,17 @@ public class PersonnelController {
 	
 	/**
 	  *  编辑
-	 * @param personnel
+	 * @param activityAward
 	 * @return
 	 */
 	@PutMapping(value = "/edit")
-	public Result<Personnel> edit(@RequestBody Personnel personnel) {
-		Result<Personnel> result = new Result<Personnel>();
-		Personnel personnelEntity = personnelService.getById(personnel.getId());
-		if(personnelEntity==null) {
+	public Result<ActivityAward> edit(@RequestBody ActivityAward activityAward) {
+		Result<ActivityAward> result = new Result<ActivityAward>();
+		ActivityAward activityAwardEntity = activityAwardService.getById(activityAward.getId());
+		if(activityAwardEntity==null) {
 			result.error500("未找到对应实体");
 		}else {
-			boolean ok = personnelService.updateById(personnel);
+			boolean ok = activityAwardService.updateById(activityAward);
 			//TODO 返回false说明什么？
 			if(ok) {
 				result.success("修改成功!");
@@ -144,7 +116,7 @@ public class PersonnelController {
 	@DeleteMapping(value = "/delete")
 	public Result<?> delete(@RequestParam(name="id",required=true) String id) {
 		try {
-			personnelService.removeById(id);
+			activityAwardService.removeById(id);
 		} catch (Exception e) {
 			log.error("删除失败",e.getMessage());
 			return Result.error("删除失败!");
@@ -158,12 +130,12 @@ public class PersonnelController {
 	 * @return
 	 */
 	@DeleteMapping(value = "/deleteBatch")
-	public Result<Personnel> deleteBatch(@RequestParam(name="ids",required=true) String ids) {
-		Result<Personnel> result = new Result<Personnel>();
+	public Result<ActivityAward> deleteBatch(@RequestParam(name="ids",required=true) String ids) {
+		Result<ActivityAward> result = new Result<ActivityAward>();
 		if(ids==null || "".equals(ids.trim())) {
 			result.error500("参数不识别！");
 		}else {
-			this.personnelService.removeByIds(Arrays.asList(ids.split(",")));
+			this.activityAwardService.removeByIds(Arrays.asList(ids.split(",")));
 			result.success("删除成功!");
 		}
 		return result;
@@ -175,13 +147,13 @@ public class PersonnelController {
 	 * @return
 	 */
 	@GetMapping(value = "/queryById")
-	public Result<Personnel> queryById(@RequestParam(name="id",required=true) String id) {
-		Result<Personnel> result = new Result<Personnel>();
-		Personnel personnel = personnelService.getById(id);
-		if(personnel==null) {
+	public Result<ActivityAward> queryById(@RequestParam(name="id",required=true) String id) {
+		Result<ActivityAward> result = new Result<ActivityAward>();
+		ActivityAward activityAward = activityAwardService.getById(id);
+		if(activityAward==null) {
 			result.error500("未找到对应实体");
 		}else {
-			result.setResult(personnel);
+			result.setResult(activityAward);
 			result.setSuccess(true);
 		}
 		return result;
@@ -194,10 +166,10 @@ public class PersonnelController {
    * @param response
    */
   @RequestMapping(value = "/exportXls")
-  public ModelAndView exportXls(HttpServletRequest request, Personnel personnel) {
+  public ModelAndView exportXls(HttpServletRequest request, ActivityAward activityAward) {
       // Step.1 组装查询条件查询数据
-      QueryWrapper<Personnel> queryWrapper = QueryGenerator.initQueryWrapper(personnel, request.getParameterMap());
-      List<Personnel> pageList = personnelService.list(queryWrapper);
+      QueryWrapper<ActivityAward> queryWrapper = QueryGenerator.initQueryWrapper(activityAward, request.getParameterMap());
+      List<ActivityAward> pageList = activityAwardService.list(queryWrapper);
       // Step.2 AutoPoi 导出Excel
       ModelAndView mv = new ModelAndView(new JeecgEntityExcelView());
       // 过滤选中数据
@@ -206,13 +178,13 @@ public class PersonnelController {
     	  mv.addObject(NormalExcelConstants.DATA_LIST, pageList);
       }else {
     	  List<String> selectionList = Arrays.asList(selections.split(","));
-    	  List<Personnel> exportList = pageList.stream().filter(item -> selectionList.contains(item.getId())).collect(Collectors.toList());
+    	  List<ActivityAward> exportList = pageList.stream().filter(item -> selectionList.contains(item.getId())).collect(Collectors.toList());
     	  mv.addObject(NormalExcelConstants.DATA_LIST, exportList);
       }
       //导出文件名称
-      mv.addObject(NormalExcelConstants.FILE_NAME, "参加活动人员表列表");
-      mv.addObject(NormalExcelConstants.CLASS, Personnel.class);
-      mv.addObject(NormalExcelConstants.PARAMS, new ExportParams("参加活动人员表列表数据", "导出人:Jeecg", "导出信息"));
+      mv.addObject(NormalExcelConstants.FILE_NAME, "活动奖励列表");
+      mv.addObject(NormalExcelConstants.CLASS, ActivityAward.class);
+      mv.addObject(NormalExcelConstants.PARAMS, new ExportParams("活动奖励列表数据", "导出人:Jeecg", "导出信息"));
       return mv;
   }
 
@@ -234,9 +206,9 @@ public class PersonnelController {
           params.setHeadRows(1);
           params.setNeedSave(true);
           try {
-              List<Personnel> listPersonnels = ExcelImportUtil.importExcel(file.getInputStream(), Personnel.class, params);
-              personnelService.saveBatch(listPersonnels);
-              return Result.ok("文件导入成功！数据行数:" + listPersonnels.size());
+              List<ActivityAward> listActivityAwards = ExcelImportUtil.importExcel(file.getInputStream(), ActivityAward.class, params);
+              activityAwardService.saveBatch(listActivityAwards);
+              return Result.ok("文件导入成功！数据行数:" + listActivityAwards.size());
           } catch (Exception e) {
               log.error(e.getMessage(),e);
               return Result.error("文件导入失败:"+e.getMessage());

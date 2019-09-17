@@ -43,8 +43,8 @@ public class ShiroConfig {
 		// 拦截器
 		Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
 
-		//发布任务
-		filterChainDefinitionMap.put("/activities/publishingActivities/**", "anon");
+		//参加活动人员
+		filterChainDefinitionMap.put("/participate/personnel/**", "anon");
 
 		//cas验证登录
 		filterChainDefinitionMap.put("/cas/client/validateLogin", "anon");
