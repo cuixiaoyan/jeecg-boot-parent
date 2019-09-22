@@ -8,6 +8,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.jeecg.common.aspect.annotation.Dict;
+import org.jeecgframework.poi.excel.annotation.Excel;
 import org.springframework.format.annotation.DateTimeFormat;
 
 /**
@@ -43,11 +44,13 @@ public class PetOwners implements Serializable {
 	/**年龄*/
 	private Integer age;
 	/**性别*/
+	@Excel(name = "性别", width = 15,dicCode="sex")
 	@Dict(dicCode = "sex")
 	private String sex;
 	/**电话*/
 	private String iphone;
 	/**等级*/
+	@Excel(name = "等级", width = 15,dicCode="member")
 	@Dict(dicCode = "member")
 	private String huiyuan;
 	/**种类*/

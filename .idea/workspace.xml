@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb878f04-4b75-4582-bd5a-b2a6880bdc49" name="Default Changelist" comment="开发和生产环境的配置未提交 个人使用">
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/controller/PetOwnersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetOwners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/mapper/PetCatMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/mapper/PetDogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/mapper/PetOwnersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/mapper/xml/PetCatMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/mapper/xml/PetDogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/mapper/xml/PetOwnersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/service/IPetCatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/service/IPetDogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/service/IPetOwnersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/service/impl/PetCatServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/service/impl/PetDogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/service/impl/PetOwnersServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/vo/PetOwnersPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application-dev.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/activities/entity/PublishingActivities.class" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/classes/org/jeecg/modules/demo/activities/entity/PublishingActivities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/jeecg-boot-module-cxy-2.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/jeecg-boot-module-cxy-2.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetOwners.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetOwners.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jeecg-boot-base-common/target/" />
     <ignored path="$PROJECT_DIR$/jeecg-boot-module-system/target/" />
@@ -58,7 +40,7 @@
     <session id="-1696144897">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.2" value="11" />
@@ -66,8 +48,8 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="6" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,7 +57,7 @@
           <entry key="class" value="28" />
           <entry key="ftl" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="285" />
+          <entry key="java" value="288" />
           <entry key="javai" value="1" />
           <entry key="json" value="3" />
           <entry key="properties" value="2" />
@@ -89,7 +71,7 @@
           <entry key="CLASS" value="28" />
           <entry key="FTL" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="285" />
+          <entry key="JAVA" value="288" />
           <entry key="JSON" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
@@ -101,16 +83,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="737" />
-          <entry key="txt" value="81" />
+          <entry key="java" value="761" />
+          <entry key="txt" value="93" />
           <entry key="xml" value="41" />
           <entry key="yml" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="737" />
-          <entry key="PLAIN_TEXT" value="83" />
+          <entry key="JAVA" value="761" />
+          <entry key="PLAIN_TEXT" value="95" />
           <entry key="XML" value="41" />
           <entry key="YAML" value="101" />
         </counts>
@@ -118,62 +100,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetCat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="54" column="48" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="68" column="54" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activityAward/entity/ActivityAward.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/participate/entity/Personnel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="56" column="27" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetDog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetOwners.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -425,9 +352,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -438,126 +362,36 @@
             <path>
               <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="activities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="activities" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="activityAward" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="activityAward" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="participate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="participate" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="pet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg-boot-module-cxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="pet" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -568,7 +402,7 @@
     <property name="SearchEverywhereHistoryKey" value="BaseMapper&#9;PSI&#9;JAVA://com.baomidou.mybatisplus.core.mapper.BaseMapper&#10;ShiroConfig&#9;PSI&#9;JAVA://org.jeecg.config.ShiroConfig&#10;AttendanceMapper.xml&#9;FILE&#9;file:///Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/attendance/mapper/xml/AttendanceMapper.xml&#10;QueryGenerator&#9;PSI&#9;JAVA://org.jeecg.common.system.query.QueryGenerator" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569036456229" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569037701519" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -659,7 +493,8 @@
       <workItem from="1568712070539" duration="83000" />
       <workItem from="1568713965033" duration="1437000" />
       <workItem from="1569026115320" duration="1133000" />
-      <workItem from="1569031589127" duration="2266000" />
+      <workItem from="1569031589127" duration="2456000" />
+      <workItem from="1569129875644" duration="3329000" />
     </task>
     <task id="LOCAL-00001" summary="开发和生产环境的配置未提交 个人使用">
       <created>1568271854719</created>
@@ -710,17 +545,23 @@
       <option name="project" value="LOCAL" />
       <updated>1568706559350</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加 宠物模块 模块完成">
+      <created>1569037665743</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569037665743</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83828000" />
+    <option name="totallyTimeSpent" value="87347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -732,7 +573,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.22056833" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.21921515" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -743,7 +584,7 @@
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3292683" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32882273" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.5007153" side_tool="true" weight="0.39972898" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -775,7 +616,8 @@
     <MESSAGE value="增加活动参与人 模块" />
     <MESSAGE value="增加数据字典查看显示" />
     <MESSAGE value="后台增加活动奖励模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台增加活动奖励模块" />
+    <MESSAGE value="增加 宠物模块 模块完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加 宠物模块 模块完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/monitor/exception/RedisConnectException.java">
@@ -1071,6 +913,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activityAward/entity/ActivityAward.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -1078,38 +927,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activityAward/entity/ActivityAward.java">
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetCat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/participate/entity/Personnel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="27" />
+        <state relative-caret-position="172">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetDog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        <state relative-caret-position="252">
+          <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetCat.java">
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/participate/entity/Personnel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="54" column="48" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="48" />
+        <state relative-caret-position="391">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetOwners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="92">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

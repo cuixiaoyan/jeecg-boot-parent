@@ -26,23 +26,23 @@ public class PetDog implements Serializable {
 	@TableId(type = IdType.UUID)
 	private String id;
 	/**创建人*/
-	@Excel(name = "创建人", width = 15)
+	//@Excel(name = "创建人", width = 15)
 	private String createBy;
 	/**创建日期*/
-	@Excel(name = "创建日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
+	//@Excel(name = "创建日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
 	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date createTime;
 	/**更新人*/
-	@Excel(name = "更新人", width = 15)
+	//@Excel(name = "更新人", width = 15)
 	private String updateBy;
 	/**更新日期*/
-	@Excel(name = "更新日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
+	//@Excel(name = "更新日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
 	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date updateTime;
 	/**所属部门*/
-	@Excel(name = "所属部门", width = 15)
+	//@Excel(name = "所属部门", width = 15)
 	private String sysOrgCode;
 	/**狗名*/
 	@Excel(name = "狗名", width = 15)
