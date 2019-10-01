@@ -57,15 +57,16 @@ public class PetDoctor implements Serializable {
 	@Excel(name = "手机号", width = 15)
 	private String iphone;
 	/**级别*/
+	@Dict(dicCode = "level")
 	@Excel(name = "级别", width = 15)
 	private String level;
 	/**照片*/
-	@Excel(name = "照片", width = 15)
+	//@Excel(name = "照片", width = 15)
 	private String photo;
 	/**资格证*/
-	@Excel(name = "资格证", width = 15)
+	//@Excel(name = "资格证", width = 15)
 	private String qualificationsphoto;
 	/**简介*/
-	@Excel(name = "简介", width = 15)
+	//@Excel(name = "简介", width = 15)
 	private String resume;
 }
