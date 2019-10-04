@@ -58,7 +58,7 @@ public class PetDoctor implements Serializable {
 	private String iphone;
 	/**级别*/
 	@Dict(dicCode = "level")
-	@Excel(name = "级别", width = 15)
+	@Excel(name = "级别", width = 15,dicCode = "level")
 	private String level;
 	/**照片*/
 	//@Excel(name = "照片", width = 15)
