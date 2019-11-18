@@ -114,16 +114,16 @@ public class Swagger2Config implements WebMvcConfigurer {
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder()
 				// //大标题
-				.title("Jeecg-Boot 后台服务API接口文档")
+				.title("cxy 后台服务API接口文档")
 				// 版本号
 				.version("1.0")
 //				.termsOfServiceUrl("NO terms of service")
 				// 描述
 				.description("后台API接口")
 				// 作者
-				.contact("JEECG团队")
+				.contact("cxy")
                 .license("The Apache License, Version 2.0")
-                .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
+                .licenseUrl("https://bk.cuixiaoyan.xyz")
 				.build();
 	}
 

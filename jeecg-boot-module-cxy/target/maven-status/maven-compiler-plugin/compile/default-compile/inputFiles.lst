@@ -1,6 +1,8 @@
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/participate/service/impl/PersonnelServiceImpl.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/controller/PetOwnersController.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/service/impl/PetDogServiceImpl.java
+/Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/doctors/mapper/PetDoctorMapper.java
+/Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/doctors/service/IPetDoctorService.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/participate/mapper/PersonnelMapper.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/service/IPublishingActivitiesService.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activityAward/service/IActivityAwardService.java
@@ -20,9 +22,11 @@
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/entity/PetDog.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activityAward/mapper/ActivityAwardMapper.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activityAward/controller/ActivityAwardController.java
+/Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/doctors/service/impl/PetDoctorServiceImpl.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/participate/service/IPersonnelService.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/participate/entity/Region.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activityAward/service/impl/ActivityAwardServiceImpl.java
+/Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/doctors/controller/PetDoctorController.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/participate/controller/PersonnelController.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/controller/PublishingActivitiesController.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/mapper/PublishingActivitiesMapper.java
@@ -31,3 +35,4 @@
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/activities/entity/PublishingActivities.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/participate/entity/Personnel.java
 /Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/pet/mapper/PetDogMapper.java
+/Users/cuixiaoyan/biancheng/jeecg/jeecg-boot/jeecg-boot-module-cxy/src/main/java/org/jeecg/modules/demo/doctors/entity/PetDoctor.java

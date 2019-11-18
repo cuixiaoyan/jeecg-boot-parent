@@ -2,12 +2,14 @@ org/jeecg/modules/demo/activityAward/entity/ActivityAward.class
 org/jeecg/modules/demo/participate/service/IPersonnelService.class
 org/jeecg/modules/demo/pet/service/impl/PetOwnersServiceImpl.class
 org/jeecg/modules/demo/pet/vo/PetOwnersPage.class
+org/jeecg/modules/demo/doctors/controller/PetDoctorController.class
 org/jeecg/modules/demo/participate/controller/PersonnelController.class
 org/jeecg/modules/demo/pet/service/impl/PetCatServiceImpl.class
 org/jeecg/modules/demo/participate/entity/Personnel.class
 org/jeecg/modules/demo/participate/service/RegionService.class
 org/jeecg/modules/demo/pet/entity/PetCat.class
 org/jeecg/modules/demo/pet/entity/PetDog.class
+org/jeecg/modules/demo/doctors/entity/PetDoctor.class
 org/jeecg/modules/demo/pet/mapper/PetDogMapper.class
 org/jeecg/modules/demo/pet/service/impl/PetDogServiceImpl.class
 org/jeecg/modules/demo/pet/service/IPetCatService.class
@@ -23,6 +25,9 @@ org/jeecg/modules/demo/participate/mapper/PersonnelMapper.class
 org/jeecg/modules/demo/activityAward/service/IActivityAwardService.class
 org/jeecg/modules/demo/pet/mapper/PetOwnersMapper.class
 org/jeecg/modules/demo/activities/entity/PublishingActivities.class
+org/jeecg/modules/demo/doctors/mapper/PetDoctorMapper.class
+org/jeecg/modules/demo/doctors/service/impl/PetDoctorServiceImpl.class
+org/jeecg/modules/demo/doctors/service/IPetDoctorService.class
 org/jeecg/modules/demo/participate/entity/Region.class
 org/jeecg/modules/demo/pet/mapper/PetCatMapper.class
 org/jeecg/modules/demo/activities/service/IPublishingActivitiesService.class
