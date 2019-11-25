@@ -76,7 +76,7 @@ public interface CommonConstant {
     /** 登录用户拥有权限缓存KEY前缀 */
     public static String LOGIN_USER_CACHERULES_PERMISSION  = "loginUser_cacheRules::Permissions_";
     /** 登录用户令牌缓存KEY前缀 */
-    public static final int  TOKEN_EXPIRE_TIME  = 3600; //3600秒即是一小时
+    public static final int  TOKEN_EXPIRE_TIME  = 36000; //3600秒即是一小时
     
     public static final String PREFIX_USER_TOKEN  = "PREFIX_USER_TOKEN_";
     

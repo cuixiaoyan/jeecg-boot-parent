@@ -27,23 +27,23 @@ public class CxySchool implements Serializable {
 	@TableId(type = IdType.UUID)
 	private String id;
 	/**创建人*/
-	@Excel(name = "创建人", width = 15)
+	//@Excel(name = "创建人", width = 15)
 	private String createBy;
 	/**创建日期*/
-	@Excel(name = "创建日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
+	//@Excel(name = "创建日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
 	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date createTime;
 	/**更新人*/
-	@Excel(name = "更新人", width = 15)
+	//@Excel(name = "更新人", width = 15)
 	private String updateBy;
 	/**更新日期*/
-	@Excel(name = "更新日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
+	//@Excel(name = "更新日期", width = 20, format = "yyyy-MM-dd HH:mm:ss")
 	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date updateTime;
 	/**所属部门*/
-	@Excel(name = "所属部门", width = 15)
+	//@Excel(name = "所属部门", width = 15)
 	private String sysOrgCode;
 	/**学校名称*/
 	@Excel(name = "学校名称", width = 15)
@@ -64,7 +64,8 @@ public class CxySchool implements Serializable {
 	@Excel(name = "联系电话", width = 15)
 	private String phone;
 	/**联系人*/
-	@Excel(name = "联系人", width = 15)
+	@Dict(dicCode = "id",dictTable="sys_user",dicText="realname")
+	@Excel(name = "联系人", width = 15 ,dictTable="sys_user",dicCode="id",dicText="realname")
 	private String contacts;
 	/**地址*/
 	@Excel(name = "地址", width = 15)
@@ -79,18 +80,19 @@ public class CxySchool implements Serializable {
 	@Excel(name = "简介", width = 15)
 	private String introduce;
 	/**备注*/
-	@Excel(name = "备注", width = 15)
+	//@Excel(name = "备注", width = 15)
 	private String remarks;
 	/**文件存储名字*/
 	@Excel(name = "文件存储名字", width = 15)
 	private String bucket;
 	/**类别*/
-	@Excel(name = "类别", width = 15)
-	private Integer schoolType;
+	@Dict(dicCode = "schoolType")
+	@Excel(name = "类别", width = 15 ,dicCode="schoolType")
+	private String schoolType;
 	/**唯一标示*/
-	@Excel(name = "唯一标示", width = 15)
+	//@Excel(name = "唯一标示", width = 15)
 	private String schoolSign;
 	/**学校状态*/
-	@Excel(name = "学校状态", width = 15)
-	private Integer status;
+	//@Excel(name = "学校状态", width = 15)
+	private String status;
 }
